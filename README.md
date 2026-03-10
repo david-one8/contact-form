@@ -161,7 +161,7 @@ Delete a submission by ID.
 
 ## Time Spent
 
-~2.5 hours
+~4.5 hours
 
 ---
 
