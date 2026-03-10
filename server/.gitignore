@@ -14,6 +14,11 @@ yarn-error.log
 *.swp
 *.swo
 
+# Database
+*.db
+*.db-shm
+*.db-wal
+
 # OS
 .DS_Store
 Thumbs.db
