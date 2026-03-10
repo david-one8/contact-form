@@ -159,6 +159,12 @@ Delete a submission by ID.
 
 ---
 
+## Time Spent
+
+~2.5 hours
+
+---
+
 ## What I'd Improve
 
 - **Database**: Replace JSON file storage with SQLite or PostgreSQL for thread safety and scalability
