@@ -11,7 +11,6 @@ const DATA_FILE = path.join(__dirname, 'data.json');
 app.use(cors());
 app.use(express.json());
 
-// --- Helpers ---
 
 const VALID_SUBJECTS = [
   'General Inquiry',
@@ -70,7 +69,6 @@ function validateSubmission(body) {
   return errors;
 }
 
-// --- Routes ---
 
 // POST /api/contact — submit a new contact form
 app.post('/api/contact', (req, res) => {
@@ -130,7 +128,7 @@ app.delete('/api/contact/:id', (req, res) => {
   return res.json({ message: 'Submission deleted' });
 });
 
-// --- Start ---
+// Server Start 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
